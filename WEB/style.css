@@ -1,0 +1,283 @@
+/* Eléments principaux de la page */
+
+@font-face {
+    font-family: 'titre';
+    src: url('polices/sketchy_in_snow/sketchy.otf');
+}
+
+@font-face {
+    font-family: 'alex-brush';
+    src: url('polices/alex-brush/AlexBrush.ttf');
+}
+
+body
+{
+    background: url('images/fond.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+/* Header */
+
+header
+{
+	width: 1200px;
+    margin: auto;
+    background: url('images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+
+header h1
+{
+    font-family: 'titre', serif;
+    font-size: 6em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2
+{
+    font-family: 'alex-brush', fantasy;
+    font-size: 1.9em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+
+
+
+/* Video */
+
+#video_presentation {
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+
+
+/* Corps */
+
+/* Quelques lieux à visiter */
+#actus {
+	border: 3px blue ridge;
+	border-radius: 10px;
+	width: 1200px;
+    margin: auto;
+	padding: 10px;
+	margin-top: 15px;
+	background-color: rgba(24,24,24,0.6);
+	color: white;
+	text-align: center;
+}
+
+#actus h1 {
+	font-family: 'titre', serif;
+    font-size: 3em;
+	color: rgb(30,187,257);
+}
+
+#actus_list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+	
+#actus article {
+	color: white;
+	height: 600px;
+	padding: 20px
+}
+	
+#actus_list img {
+	width: 300px;
+
+}
+	
+	
+	
+/*Cartes dans la page Infos Utiles */
+#cartes {
+	border: 3px red ridge;
+	border-radius: 10px;
+	width: 1200px;
+    margin: auto;
+	padding: 10px;
+	margin-top: 15px;
+	background-color: rgba(24,24,24,0.6);
+	color: white;
+	text-align: center;
+}
+
+#cartes h1 {
+	font-family: 'titre', serif;
+    font-size: 3em;
+	color: rgb(30,187,257);
+}
+
+#cartes_list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+	
+#cartes article {
+	color: white;
+	height: 500px;
+	padding: 20px
+}
+	
+#cartes_list img {
+	width: 500px;
+
+}
+
+
+
+/* Contacts dans la page Infos Utiles */
+#contacts {
+	border: 3px red ridge;
+	border-radius: 10px;
+	width: 1200px;
+    margin: auto;
+	padding: 10px;
+	margin-top: 15px;
+	background-color: rgba(24,24,24,0.8);
+	color: white;
+	text-align: center;
+}
+
+#contacts h1 {
+	font-family: 'titre', serif;
+    font-size: 3em;
+	color: rgb(30,187,257);
+}
+
+#contacts_list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+	
+#contacts article {
+	color: white;
+	height: 200px;
+	padding: 20px
+}
+	
+#contacts_list img {
+	width: 500px;
+
+}
+
+#contacts a {
+	color: red;
+}
+
+
+/* Gestion de la galerie photo */
+#photos {
+	border: 3px orange ridge;
+	border-radius: 10px;
+	background-color: rgba(24,24,24,0.8);
+	color: white;
+	text-align: center;
+	width: 1500px;
+	margin: auto;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+#photos h1 {
+	font-family: 'titre', serif;
+    font-size: 3em;
+	color: rgb(30,187,257);
+}
+
+#photos_list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+	
+
+#photos_list img {
+	width: 400px;
+
+}
+
+
+
+
+
